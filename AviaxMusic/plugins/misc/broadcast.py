@@ -184,7 +184,7 @@ async def braodcast_message(client, message, _):
     if "-assistant" in message.text:
         aw = await message.reply_text(_["broad_5"])
         text = _["broad_6"]
-        from RessoMusic.core.userbot import assistants
+        from AviaxMusic.core.userbot import assistants
 
         for num in assistants:
             sent = 0
