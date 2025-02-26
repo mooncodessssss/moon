@@ -21,6 +21,9 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
 # Chat id of a group for logging bot's activities
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", None))
 
+# Vars For API End Pont.
+YTPROXY_URL = getenv("YTPROXY_URL", 'https://yt.okflix.top/api') ## E.G https://yt.okflix.top/api/jADTdg-o8i0 Returns 
+
 # Get this value from @MissRose_Bot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", None))
 
@@ -32,7 +35,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/mooncodesss/moom-",
+    "https://github.com/mooncodessssss/moon",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
